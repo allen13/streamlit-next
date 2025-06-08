@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #111827;
+  background: #f9fafb;
+}
+
+/* Ensure all text has proper contrast */
+p, span, div, label {
+  color: #111827;
+}
+
+/* Override for code blocks */
+.bg-gray-900 pre,
+.bg-gray-900 code {
+  color: #f3f4f6 !important;
+}
+
+/* Input styles */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  color: #111827;
+}
+
+/* Table text */
+th {
+  color: #374151;
+}
+
+td {
+  color: #111827;
+}
